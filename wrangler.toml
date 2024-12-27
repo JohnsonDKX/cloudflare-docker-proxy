@@ -23,7 +23,7 @@ routes = [
 #   { pattern = "k8s.xmlove.org", custom_domain = true },
   { pattern = "ghcr.xmlove.org", custom_domain = true },
 #   { pattern = "cloudsmith.xmlove.org", custom_domain = true },
-# ]
+]
 
 [env.production.vars]
 MODE = "production"
