@@ -15,13 +15,13 @@ TARGET_UPSTREAM = "https://registry-1.docker.io"
 
 [env.production]
 name = "cloudflare-docker-proxy"
-# routes = [
-#   { pattern = "docker.xmlove.org", custom_domain = true },
+routes = [
+  { pattern = "docker.xmlove.org", custom_domain = true },
 #   { pattern = "quay.xmlove.org", custom_domain = true },
 #   { pattern = "gcr.xmlove.org", custom_domain = true },
 #   { pattern = "k8s-gcr.xmlove.org", custom_domain = true },
 #   { pattern = "k8s.xmlove.org", custom_domain = true },
-#   { pattern = "ghcr.xmlove.org", custom_domain = true },
+  { pattern = "ghcr.xmlove.org", custom_domain = true },
 #   { pattern = "cloudsmith.xmlove.org", custom_domain = true },
 # ]
 
